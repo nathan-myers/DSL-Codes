@@ -7,6 +7,7 @@ for i in range(n):
 print(roll_list)
 
 def linear_search(roll_list, n, key):   #Arguments: (array, no of elements, element to be searched for)
+    
     count = 0
     for i in range(0, n):
         if roll_list[i] == key:
@@ -15,6 +16,7 @@ def linear_search(roll_list, n, key):   #Arguments: (array, no of elements, elem
 
     if count == 0:
         print("The roll no does not exist !!")
+
 
 #Fix the sentinal part !!!!
 def sentinal_search(roll_list, n, key):
@@ -30,7 +32,7 @@ def sentinal_search(roll_list, n, key):
     roll_list[n-1] = last
 
     if(i<n-1 or roll_list[n-1]):
-        print("The roll no ", roll_list[i], " is present at ", i," position")
+        print("The roll no is present at ", i," position")
     else:
         print("The roll no does not exist !!")
 
