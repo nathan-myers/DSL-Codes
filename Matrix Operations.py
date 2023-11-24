@@ -65,7 +65,7 @@ while True:
         for i in A:
             print(i)
 
-        print("Enter elements of matrix A:")
+        print("Enter elements of matrix B:")
         B=matcreate(r,c)
         for i in B:
             print(i)
