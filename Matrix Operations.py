@@ -13,7 +13,8 @@ def matcreate(r,c):
 
 def addition(A,B):
 
-    result=[[0 for i in range(r)]for j in range(c)]
+    result=[[0 for i in range(r)]for j in range(c)] # This creates a 2D list (matrix) with c rows and r columns, where each element is initialized to 0.
+                                                    # So, after this line, result becomes a matrix filled with zeros, ready to store the results
     for i in range(len(A)):
         for j in range(len(A[0])):
             result[i][j] = A[i][j] + B[i][j]
