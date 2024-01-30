@@ -1,4 +1,5 @@
 # Implement to display no of comparison in display function
+# Also implement search and delete
 
 class Hashtable:
     def __init__(self):
