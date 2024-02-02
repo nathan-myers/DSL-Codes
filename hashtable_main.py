@@ -1,4 +1,4 @@
-# Implement to display no of comparison in display function
+# Implement to display no of comparison in display function & search function. No of comparisons is same for both.
 
 class Hashtable:
     def __init__(self):
